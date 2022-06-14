@@ -6,4 +6,4 @@
 
 ### image (c, w, h) --np.transpose--> numpy (w, h, c)
 
-<img src="https://github.com/sandokim/Coding_trick/blob/main/images/check_sample.png" width="60%">
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/check_sample.PNG" width="60%">
