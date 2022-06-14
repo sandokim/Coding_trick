@@ -12,4 +12,4 @@
 
 #### Avoiding forward method by subclassing nn.Sequential
 
-<img src="https://github.com/sandokim/Coding_trick/blob/main/feedforward.JPG" width="60%">
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/feedforward.JPG" width="60%">
