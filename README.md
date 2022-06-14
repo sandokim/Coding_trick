@@ -1,5 +1,7 @@
 # Coding_trick
 
+[Visual Studio Code / 자동 줄바꿈 설정하는 방법](https://www.codingfactory.net/12959)
+
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/path_trick.png" width="60%">
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/zip_trick.png" width="60%">
