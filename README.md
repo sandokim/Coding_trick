@@ -15,3 +15,7 @@
 #### Avoiding forward method by subclassing nn.Sequential
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/feedforward.JPG" width="60%">
+
+## Python
+
+[파이썬 Super 명령 알아보기](https://harry24k.github.io/super/)
