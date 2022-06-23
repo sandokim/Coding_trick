@@ -13,6 +13,10 @@ input이 3d일때, 2d일때 if문으로 나누는 방법
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/If 3d or 2d.PNG" width="100%">
 
+### torch.no_grad()일때는 copy하여서 gpu의 weights&biases&데이터들을 cpu로 옮겨야한다.
+
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/torch no grad copy.PNG" width="100%">
+
 ### image (c, w, h) --np.transpose--> numpy (w, h, c)
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/check_sample.PNG" width="60%">
