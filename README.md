@@ -11,7 +11,7 @@ input이 3d일때, 2d일때 if문으로 나누는 방법
 * len(input.shape)==5면 b,c,d,w,h 3D 
 * len(input.shape)==4면 b,c,w,d 2D
 
-<img src="https://github.com/sandokim/Coding_trick/blob/main/images/If 3d or 2d.PNG" width="60%">
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/If 3d or 2d.PNG" width="100%">
 
 ### image (c, w, h) --np.transpose--> numpy (w, h, c)
 
