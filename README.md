@@ -6,6 +6,17 @@
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/zip_trick.png" width="60%">
 
+## Python
+
+### python Extended Slices :: 
+ 
+* arr[::] --> 처음부터 끝까지 1칸 간격 인덱싱
+* arr[1:2:3] --> index1부터 index2까지 3칸 간격으로 인덱싱
+* arr[::-1] --> 처음부터 끝까지 역순으로 1칸 간격 인덱싱
+* arr[::-2] --> 처음부터 끝까지 역순으로 2칸 간격 인덱싱
+
+[[Tip] Python Array[::] 사용법](https://blog.wonkyunglee.io/3)
+
 input이 3d일때, 2d일때 if문으로 나누는 방법
 
 * len(input.shape)==5면 b,c,d,w,h 3D 
