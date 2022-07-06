@@ -14,9 +14,9 @@ config.~~ 써먹기
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/config file usage.png" width="60%">
 
-train.py에서 def main(): 부분에서 사용하면 좋다. (위쪽에 물론 import config 되어있다.)
+train.py에서 def main(): 부분에서 사용하면 좋다. (train.py 첫줄에 import config 되어있다.)
 
-<img src="https://github.com/sandokim/Coding_trick/blob/main/images/main config usage.png" width="60%">
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/main config usage.png" width="80%">
 
 [Visual Studio Code / 자동 줄바꿈 설정하는 방법](https://www.codingfactory.net/12959)
 
