@@ -1,5 +1,20 @@
 # Coding_trick
 
+## Config.py로 arguments 관리하기
+
+config.py 파일 만들기
+
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/config file.png" width="60%">
+
+import config 하기
+
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/import config.png" width="60%">
+
+config.~~ 써먹기
+
+<img src="https://github.com/sandokim/Coding_trick/blob/main/images/config file usage.png" width="60%">
+
+
 [Visual Studio Code / 자동 줄바꿈 설정하는 방법](https://www.codingfactory.net/12959)
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/path_trick.png" width="60%">
