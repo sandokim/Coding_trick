@@ -1,5 +1,12 @@
 # Coding_trick
 
+#### import matplotlib.pyplot as plt는 np.float16 타입을 지원하지 않는다 --> np.float32로 바꾼다.
+
+```python
+data_output = data_output.astype(np.float32) # np.float16 --> np.float32
+```
+
+
 ## Config.py로 arguments 관리하기
 
 config.py 파일 만들기
