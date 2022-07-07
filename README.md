@@ -1,11 +1,19 @@
 # Coding_trick
 
+#### nnU-Net npz 파일, nii.gz 파일은 (251, 421, 456)과 같이 나온다. 원래는 (456, 421, 251)이다. 
+
+* original shape: (h, w, d)
+* converted nii.gz shape: (d, w, h)
+
+```python
+data_output = np.transpose(data_output, (2,1,0)) # nii.gz (d,w,h) --> (h,w,d)
+```
+
 #### import matplotlib.pyplot as plt는 np.float16 타입을 지원하지 않는다 --> np.float32로 바꾼다.
 
 ```python
 data_output = data_output.astype(np.float32) # np.float16 --> np.float32
 ```
-
 
 ## Config.py로 arguments 관리하기
 
