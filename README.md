@@ -41,6 +41,16 @@ train.py에서 def main(): 부분에서 사용하면 좋다. (train.py 첫줄에
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/model pipeline dictionary config.png" width="60%">
 
+위의 img_norm_config 같은 경우 dictionary에 ** 연산자를 사용함으로써 dictionary를 합쳐 새로운 하나의 dictionary를 만든다.
+
+** 로 dictionary를 합치는 예시
+```python
+>>> dic1 = {"A": 1, "B": 2}
+>>> dic2 = {"B": 3, "C": 4}
+>>> { **dic1, **dic2 }
+{'A': 1, 'B': 3, 'C': 4}
+```
+
 [Visual Studio Code / 자동 줄바꿈 설정하는 방법](https://www.codingfactory.net/12959)
 
 <img src="https://github.com/sandokim/Coding_trick/blob/main/images/path_trick.png" width="60%">
