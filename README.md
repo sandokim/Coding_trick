@@ -10,6 +10,17 @@ MMDetection, MMDetection3D, MMClassification, MMEditing 등과 같은
 데이터 세트 및 모델의 모듈을 관리.
 ```
 
+```terminal
+[Registry]
+-> 클래스를 문자열에 maps하는 mapping으로 볼 수 있다. Registry로 문자열을 통해 클래스 찾고 인스턴스화
+ex) Registry를 사용하여 config를 통해 hook, runner, models 및 datasets를 생성하는 대부분의 OpenMMLab 프로젝트의 config 시스템
+
+Registry에서 코드베이스의 모듈 관리하려면
+1. 빌드 방법 만듦
+2. Registry 만듦
+3. Registry이용해서 모듈 관리
+```
+
 # 경로지정
 
 [상위경로 잘 지정하는 법](https://m.blog.naver.com/wideeyed/221839634437)
