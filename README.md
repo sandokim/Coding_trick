@@ -10,14 +10,27 @@
 from . import my_module
 ```
 
-<img src="https://github.com/sandokim/Coding_trick/blob/main/images/samdedir.png" width="60%">
+```bash
+$ tree
+.
+├─ my_module.py
+└─ main.py
+```
 
 * 하위 경로 파일
 하위 경로의 파일은 from 하위 폴더 처럼 폴더를 지정해주어 import할 수 있습니다.
 ```python
 from subdir import my module
 ```
-<img src="https://github.com/sandokim/Coding_trick/blob/main/images/subdir.png" width="60%">
+```bash
+$ tree
+.
+├─ subdir
+│  └─ my_module.py
+└─ main.py
+```
+
+
 
 #### nnU-Net npz 파일, nii.gz 파일은 (251, 421, 456)과 같이 나온다. 원래는 (456, 421, 251)이다. 
 
