@@ -2,6 +2,14 @@
 
 ### [mmcv, Registry, Configuration, builder, 모듈 관리](https://better-tomorrow.tistory.com/entry/MMCV-%EC%9D%98-Registry)
 
+```terminal
+MMdetection을 정리하다가 Registry 항목이 많아 정리해본다.
+MMCV는 유사한 기능을 공유하는 서로 다른 모듈(backbone, head, necks..)을 관리하기 위해 레지스트리(Registry) 구현
+OpenMMLab의 대부분의 프로젝트에서 Registry를 사용하여
+MMDetection, MMDetection3D, MMClassification, MMEditing 등과 같은
+데이터 세트 및 모델의 모듈을 관리.
+```
+
 # 경로지정
 
 [상위경로 잘 지정하는 법](https://m.blog.naver.com/wideeyed/221839634437)
