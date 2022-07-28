@@ -10,6 +10,58 @@
 ImportError: attempted relative import with no known parent package
 ValueError: attempted relative import beyond top-level package
 ```
+```python
+# tiger.py
+class Tiger:
+    def __str__(self):
+        return "tiger!"
+```
+```python
+# lion.py
+class Lion:
+    def __str__(self):
+        return "lion!"
+```
+```python
+# eagle.py
+class Eagle:
+    def __str__(self):
+        return "eagle!"
+```
+
+```bash
+/---aa
+    |   tiger.py
+    |
+    +---bb
+    |   |   lion.py
+    |
+    +---cc
+    |   |   eagle.py
+    |   |   human2.py // 신규 추가
+```
+```python
+// human2.py
+from ..tiger import Tiger
+from ..bb.lion import Lion
+from .eagle import Eagle
+
+if __name__ == "__main__":
+    print(Tiger())
+    print(Lion())
+    print(Eagle())
+```
+
+```terminal
+$ cd /
+$ python -m aa.cc.human2
+
+[결과]
+tiger!
+lion!
+eagle!
+```
+
 
 * 동일 경로 파일
 실행파일(main.py)과 동일한 경로에 있는 python 파일들은 현재 경로를 의미하는 .를 사용하여 import할 수 있습니다.
