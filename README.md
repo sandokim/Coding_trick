@@ -2,6 +2,15 @@
 
 # 경로지정
 
+[상위경로 잘 지정하는 법](https://m.blog.naver.com/wideeyed/221839634437)
+```bash
+따라서 python -m 모듈옵션과
+패키지정보가 포함된 형태로 aa.cc.human2로 실행해야 올바른 결과를 얻을 수 있습니다.
+만약 이를 지키지 않으면 아래 오류등이 발생합니다.
+ImportError: attempted relative import with no known parent package
+ValueError: attempted relative import beyond top-level package
+```
+
 * 동일 경로 파일
 실행파일(main.py)과 동일한 경로에 있는 python 파일들은 현재 경로를 의미하는 .를 사용하여 import할 수 있습니다.
 
