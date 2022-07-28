@@ -1,5 +1,7 @@
 # Coding_trick
 
+# [mmcv, Registry, Configuration, builder, 모듈 관리](https://better-tomorrow.tistory.com/entry/MMCV-%EC%9D%98-Registry)
+
 # 경로지정
 
 [상위경로 잘 지정하는 법](https://m.blog.naver.com/wideeyed/221839634437)
