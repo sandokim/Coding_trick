@@ -21,6 +21,13 @@ Registry에서 코드베이스의 모듈 관리하려면
 3. Registry이용해서 모듈 관리
 ```
 
+```terminal
+[build_func]
+Registry의 build_func argument는 class instance를 instance화 하는 방법을 사용자 정의하기 위한 것
+기본 : build_from_cfg
+```
+
+
 # 경로지정
 
 [상위경로 잘 지정하는 법](https://m.blog.naver.com/wideeyed/221839634437)
