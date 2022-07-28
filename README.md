@@ -30,6 +30,23 @@ $ tree
 └─ main.py
 ```
 
+* 상위 경로 파일
+상위 폴더를 참조할 때는 from에 상위 경로를 입력해서 import할 수 없고, 절대경로 path에 상위 경로에 대한 path를 추가해줘야 합니다. 그러면 추가된 상위폴더 경로에서 상대적으로 파일들을 참조할 수 있습니다.
+* 실행파일 경로의 상위 경로를 구하는 코드는 os.path.dirname(os.path.abspath(os.path.dirname(__file__))) 입니다. 이 경로를 sys.path.append로 절대경로에 추가할 수 있습니다.
+```python
+# main.py
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+
+from . import library
+```
+```bash
+$ tree
+.
+├── main
+│   └── main.py
+└── library.py
+```
 
 
 #### nnU-Net npz 파일, nii.gz 파일은 (251, 421, 456)과 같이 나온다. 원래는 (456, 421, 251)이다. 
