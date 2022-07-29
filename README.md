@@ -1,5 +1,14 @@
 # Coding_trick
 
+```terminal
+I train and test in the training process with new dataset successfully. but when i only test with new dataset, the following error occurs.
+'NewDataset is not in the dataset registry'
+
+해결책 __init__.py 생성!
+
+I met with similar problems here. For those who might be interested, remember to add your .py file to __init__.py located in datasets folder.
+```
+
 [mmsegmentation analysis](https://better-tomorrow.tistory.com/entry/MMSegmentation-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-Inference)
 
 ### [mmcv, Registry, Configuration, builder, 모듈 관리](https://better-tomorrow.tistory.com/entry/MMCV-%EC%9D%98-Registry)
