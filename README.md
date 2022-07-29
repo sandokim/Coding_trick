@@ -1,5 +1,7 @@
 # Coding_trick
 
+[mmsegmentation analysis](https://better-tomorrow.tistory.com/entry/MMSegmentation-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-Inference)
+
 ### [mmcv, Registry, Configuration, builder, 모듈 관리](https://better-tomorrow.tistory.com/entry/MMCV-%EC%9D%98-Registry)
 
 ```terminal
